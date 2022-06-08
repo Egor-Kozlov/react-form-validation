@@ -1,0 +1,9 @@
+.action-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    border-top: 3px solid #e6e6e6;
+    z-index: 5;
+}

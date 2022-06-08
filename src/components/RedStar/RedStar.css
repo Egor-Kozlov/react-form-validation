@@ -1,0 +1,7 @@
+.star--active {
+    color: rgb(255, 0, 0);
+}
+
+.star--disabled {
+    color: rgb(204, 97, 97);
+}

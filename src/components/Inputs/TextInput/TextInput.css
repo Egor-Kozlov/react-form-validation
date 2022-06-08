@@ -1,0 +1,30 @@
+.input-container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.input-field {
+    width: 350px;
+}
+
+.input-label {
+    margin-right: 19px;
+    color: #7c7c7c;
+}
+
+.input-label--active {
+    color: #000000 !important;
+}
+
+.error-message-container {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    z-index: 5;
+}
+
+.error-message {
+    color: rgb(221, 76, 76);
+}
