@@ -30,7 +30,7 @@
 .input-container {
     display: 'flex'; 
     flex-direction: 'row'; 
-    align-items: 'center'; 
+    align-items: flex-end;
 }
 
 .buttons-container {
@@ -80,5 +80,9 @@
 
     .form__section {
         padding: 12px;
+    }
+
+    .error-message-container {
+        bottom: -20px !important;
     }
 }
