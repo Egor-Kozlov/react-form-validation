@@ -10,8 +10,8 @@ const TextInput = ({ label, disable, required, value, onChange, name, errorMessa
     const [fieldIsEmpty, setfieldIsEmpty] = useState(true)
 
     return (
-        <div className={'input-container'}>
-            <FormControl disabled={disable} style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+        <FormControl disabled={disable} >
+            <div className={'input-container'}>
                 {label && (
                     <label className={`input-label ${!disable && `input-label--active`}`} htmlFor={label}>
                         {label} {required && <RedStar disabled={disable} />}
@@ -31,8 +31,8 @@ const TextInput = ({ label, disable, required, value, onChange, name, errorMessa
                     } : null}
                 />
                 {errorMessage && <FormHelperText className="error-message-container"><span className="error-message">{errorMessage}</span></FormHelperText>}
-            </FormControl>
-        </div>
+            </div>
+        </FormControl>
     );
 };
 

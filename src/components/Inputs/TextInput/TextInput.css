@@ -2,7 +2,7 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .input-field {
